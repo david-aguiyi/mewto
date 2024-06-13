@@ -252,7 +252,7 @@ main {
 	align-items: center;
 }
 .main-text h1{
-	font-size: 2rem;
+	/* font-size: 2rem; */
 }
 pre {
 	font-size: 0.9rem;
@@ -933,6 +933,7 @@ footer p {
 }
 #section-1 {
 	height: 100vh;
+	margin-top: 7rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1321,5 +1322,9 @@ img.right-img {
 		font-size: 3rem;
 		display: flex;
 		flex-direction: column;
+	}
+
+	#section-1{
+		margin-top: 1rem;
 	}
 }
